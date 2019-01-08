@@ -480,6 +480,13 @@ td:last-child {
 button,
 .btn {
   margin-bottom: 1.2rem;
+  
+}
+#btn-register {
+  border-radius: 4px;
+  background: none;
+  border: 2px solid #1ffac3;
+  color: #1ffac3;
 }
 
 fieldset {
@@ -1344,8 +1351,8 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 .header-logo img {
-  width: 200px;
-  height: 38px;
+  width: 250px;
+  height: 50px;
 }
 
 
@@ -2221,6 +2228,12 @@ html.no-csstransitions .home-content__main {
   background-color: #bebcbc;
   position: relative;
 }
+.college_name {
+  color: #c41d39;
+}
+.college_logo {
+
+} 
 
 
 /* ------------------------------------------------------------------- 
