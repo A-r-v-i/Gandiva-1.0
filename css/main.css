@@ -3267,6 +3267,13 @@ html.no-csstransitions .home-content__main {
   display: none;
 }
 
+#payment {
+  padding-bottom: 0%;
+}
+
+#staff-coor {
+  padding: 0%;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * contact
