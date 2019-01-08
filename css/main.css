@@ -1351,8 +1351,8 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 .header-logo img {
-  width: 250px;
-  height: 50px;
+  width: 300px;
+  height: 100px;
 }
 
 
@@ -1511,6 +1511,10 @@ input::-moz-focus-inner {
   transform: rotate(45deg);
 }
 
+#nav-name {
+  font-size: 30px;
+  color: crimson;
+}
 /* menu is open
  * ----------------------------------------------- */
 .menu-is-open .header-nav {
@@ -3472,7 +3476,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* countdown css */
-body{
+/* body{
 	text-align: center;
   font-family: sans-serif;
   font-weight: 100;
@@ -3525,6 +3529,58 @@ h2{
 }
 .seconds {
   color: #f8f8ff;
+} */
+
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+h2{
+  color: rgb(33, 247, 200);
+  font-weight: 100;
+  font-size: 60px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: metropolis-bold;
+	color: #fff;
+	display: inline-block;
+	font-weight: 50;
+	text-align: center;
+	font-size: 50px;
+}
+
+#clockdiv> div {
+  display: inline-block;
+  line-height: 1;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  font-size: 50px;
+}
+
+
+
+#days {
+  font-size: 100px;
+  color: #f3f2f1;
+}
+#hours {
+  font-size: 100px;
+  color: #f3f2f1;
+}
+#minutes {
+  font-size: 100px;
+  color: #f3f2f1;
+}
+#seconds {
+  font-size: 40px;
+  color: #f3f2f1;
 }
 
 .footer {
