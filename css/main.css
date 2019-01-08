@@ -325,7 +325,7 @@ dfn[title] {
 }
 
 mark {
-  background: #ffd900;
+  background: #58cc88;
   color: #000000;
 }
 
@@ -3012,7 +3012,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 5rem;
   padding-bottom: 5.2rem;
-  background :url(/images/wheel-2000.jpg);
+  background :url(/images/bg-contact.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   background-position: center;
